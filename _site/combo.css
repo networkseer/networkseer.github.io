@@ -216,13 +216,13 @@
 		border: 1px solid #ccc;
 		padding: 6px 4px;
 		outline: none;
-		-moz-border-radius: 2px;
-		-webkit-border-radius: 2px;
-		border-radius: 2px;
+		-moz-border-radius: 15px;
+		-webkit-border-radius: 15px;
+		border-radius: 15px;
 		font: 13px "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
 		color: #777;
 		margin: 0;
-		width: 210px;
+		width: 350px;
 		max-width: 100%;
 		display: block;
 		margin-bottom: 20px;
@@ -254,6 +254,14 @@
 		font-weight: normal;
 		font-size: 13px;
 		color: #444; }
+
+/* # Survey Monkey
+================================================== */
+	.mc_embed_signup {
+		width: 50%;
+		margin-left: auto;
+		margin-right: auto;}
+
 
 /* #Misc
 ================================================== */
@@ -508,42 +516,10 @@ html { box-sizing: border-box; }
   
   
   
-  nav .p-video { border-color: #0fbfcf; }
-  #video { background-color: #0fbfcf !important; color: #f8f8f8; }
-  #video a { color: #f8f8f8; }
-  #video .sectiondivider { color: #0fbfcf; }
-
-  
-  
-  
-  nav .p-updating { border-color: #c869bf; }
-  #updating { background-color: #c869bf !important; color: #f8f8f8; }
-  #updating a { color: #f8f8f8; }
-  #updating .sectiondivider { color: #c869bf; }
-
-  
-  
-  
-  nav .p-usage { border-color: #63BD2F; }
-  #usage { background-color: #63BD2F !important; color: #f8f8f8; }
-  #usage a { color: #f8f8f8; }
-  #usage .sectiondivider { color: #63BD2F; }
-
-  
-  
-  
-  nav .p-details { border-color: #fab125; }
-  #details { background-color: #fab125 !important; color: #111111; }
-  #details a { color: #111111; }
-  #details .sectiondivider { color: #fab125; }
-
-  
-  
-  
-  nav .p-why { border-color: #49a7e9; }
-  #why { background-color: #49a7e9 !important; color: #f8f8f8; }
-  #why a { color: #f8f8f8; }
-  #why .sectiondivider { color: #49a7e9; }
+  nav .p-signup { border-color: #49a7e9; }
+  #signup { background-color: #49a7e9 !important; color: #f8f8f8; }
+  #signup a { color: #f8f8f8; }
+  #signup .sectiondivider { color: #49a7e9; }
 
   
   
@@ -582,7 +558,7 @@ pre {
 /* ----- base elements ----- */
 
 img {
-  max-width:100%!important;
+  max-width:100%;
   height:auto;
   vertical-align:middle;
 }
@@ -699,13 +675,13 @@ nav ul li:hover, nav ul li.active {
   display:block;
   width:100%;
   min-height:300px;
-  padding:210px 0;
+  padding:210px 0 0 0;
   background:url(img/bgnoise.png);
   /* generated noise from noisetexturegenerator.com */
 }
 
 .section:first-of-type {
-    padding-top: 140px;
+    padding-top: 50px;
 }
 
 

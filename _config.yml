@@ -17,7 +17,7 @@ highlighter: pygments
 ### content configuration ###
 title:       "NetworkSeer"
 keywords:    "NetworkSeer, SDN, Home Network, Managed Services"
-description: "NetworkSeer is an excellent "
+description: "NetworkSeer is a Software Based Network Technology Company, based in Sydney we pride ourselves on high quality software"
 source_link: "https://github.com/networkseer/networkseer.github.io"
 favicon:     "img/favicon.ico"
 touch_icon:  "img/apple-touch-icon.png"
